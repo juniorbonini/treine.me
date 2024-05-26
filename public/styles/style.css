@@ -1,0 +1,100 @@
+:root {
+    --base-text: #000000;
+    --span-text: #89c5cc;
+    --text-color: #7d7987;
+    --button-color: #69b99d;
+  }
+  
+  body {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  .page {
+    width: 1000px;
+    margin: 65px auto 0;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 55px;
+    font-family: "Mulish";
+  }
+  
+  ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    color: var(--text-color);
+    gap: 50px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: var(--text-color);
+  }
+  
+  ul li a:hover {
+    font-weight: bold;
+  }
+  
+  main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 200px;
+  }
+  
+  h1 {
+    font-size: 48px;
+    font-weight: 400;
+    font-family: "Mulish";
+  }
+  
+  h1 span {
+    color: var(--span-text);
+    font-weight: 700;
+  }
+  
+  .div-left p {
+    margin: 40px 0;
+    font-size: 14px;
+    line-height: 1.5;
+    color: var(--text-color);
+  }
+  
+  button {
+    border: none;
+    background-color: var(--button-color);
+    color: white;
+    padding: 15px 8px;
+    width: 200px;
+    border-radius: 5px;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 80px;
+    color: var(--text-color);
+  }
+  
+  footer a {
+      font-weight: 700;
+      color: var(--base-text);
+  }
+  
+  .ball-img {
+      display: fixed;
+      top: 0;
+      right: 0;
+  }
+  
