@@ -3,6 +3,7 @@
     --span-text: #89c5cc;
     --text-color: #7d7987;
     --button-color: #69b99d;
+    --button-hover: #4ea788;
   }
   
   body {
@@ -46,7 +47,7 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    gap: 200px;
+    gap: 100px;
   }
   
   h1 {
@@ -79,6 +80,10 @@
     justify-content: center;
     display: flex;
     cursor: pointer;
+  }
+
+  button:hover {
+    background: var(--button-hover);
   }
   
   footer {
